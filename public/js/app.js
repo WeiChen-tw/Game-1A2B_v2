@@ -6156,7 +6156,8 @@ var app = new Vue({
 var io = __webpack_require__(65);
 var notification = io.connect("http://localhost:3000");
 notification.on("notification", function (message, result) {
-  $("#board").text($("#board").val() + new Date().toTimeString() + "輸入" + message + ",結果" + result + "\r");
+  $("#board").text($("#board").val() + new Date().toTimeString() + "輸入" + message + ",結果" + result + "\r" + "===" + "\r");
+  $("#board").scrollTop($("#board")[0].scrollHeight);
   console.log(message);
 });
 

@@ -32,7 +32,10 @@ notification.on("notification", function(message, result) {
       message +
       ",結果" +
       result +
+      "\r" +
+      "===" +
       "\r"
   );
+  $("#board").scrollTop($("#board")[0].scrollHeight);
   console.log(message);
 });
