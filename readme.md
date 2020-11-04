@@ -1,6 +1,6 @@
 # 1A2B
 
-![image]()
+![image](https://github.com/weichen-chungyo/Game-1A2B_v2/blob/main/git_img/1.png)
 
 ## 加入 webSocket
 
